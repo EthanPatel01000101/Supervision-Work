@@ -9,4 +9,8 @@ public class Card {
 
     public String getSuit() {return this.suit;}
     public String getValue() {return this.value;}
+
+    public void print() {
+        System.out.println(this.value + " " + this.suit);
+    }
 }

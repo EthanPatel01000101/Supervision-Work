@@ -1,6 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        Deck d = new Deck();
-        d.print();
+        Deck deck = new Deck();
+        Card currentCard;
+        for (int i = 0; i < 52; i++) {
+            currentCard = deck.selectCard();
+            currentCard.print();
+        }
     }
 }
