@@ -1,0 +1,1 @@
+public class IllegalState extends Exception{ public IllegalState() {}}
